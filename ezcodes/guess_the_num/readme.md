@@ -1,6 +1,6 @@
 ## Guess the Number Game 
-Where you need to guess the number in the [1; n] range.</br>But the game helps you and tells, whether the entered number is less or greater than the answer!  
-**Your password may contain**
+Where you need to guess the number in the [1; n] range.</br>But the game helps you and tells, whether the entered number is less or greater than the answer!</br>
+**Your password may contain:**
 - Uppercase letters
 - Lowercase letters
 - Numbers
