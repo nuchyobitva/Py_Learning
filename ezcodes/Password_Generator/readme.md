@@ -1,5 +1,5 @@
 ## Secure Password Generator
-This code can generate a password for you with special settings
+This code can generate a password for you with special settings</br>
 **Your password may contain:**
 - Uppercase letters
 - Lowercase letters
