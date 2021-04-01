@@ -1,5 +1,5 @@
 ## Secure Password Generator
-This code can generate a password for you with special settings  
+Where you need to guess the number in the [1; n] range.</br>But the game helps you and tells, whether the entered number is less or greater than the answer!</br>
 **Here are the rules**
 - First you enter *n* and the game generates a random number
 - Then the game offers you to make a guess
