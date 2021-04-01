@@ -1,4 +1,4 @@
-## Secure Password Generator
+## Guess the Number Game
 Where you need to guess the number in the [1; n] range.</br>But the game helps you and tells, whether the entered number is less or greater than the answer!</br>
 **Here are the rules**
 - First you enter *n* and the game generates a random number
