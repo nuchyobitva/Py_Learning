@@ -1,5 +1,5 @@
-## Guess the Number Game 
-Where you need to guess the number in the [1; n] range.</br>But the game helps you and tells, whether the entered number is less or greater than the answer!</br>
+## Secure Password Generator
+This code can generate a password for you with special settings
 **Your password may contain:**
 - Uppercase letters
 - Lowercase letters
