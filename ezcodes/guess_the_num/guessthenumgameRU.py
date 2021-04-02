@@ -30,13 +30,13 @@ def is_right(guess, x):
 def game():
     print('Сегодня у вас будет возможность угадать число в диапазоне от 1 до n',
           'Для этого введите n:', sep='\n', end=' ')
-    n = float(input())
+    n = int(input())
     result = 0
     guess = random.randint(1, n)
     x = -1
     while x != guess:
         print('Мы загадали число! Угадывайте, оно в промежутке от 1 до', n)
-        x = int(input('Вводите число: '))
+        x = float(input('Вводите число: '))
         result += 1
         if isnt_valid(n, x):
             result -= 1
