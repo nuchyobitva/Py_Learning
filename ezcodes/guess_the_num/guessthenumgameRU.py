@@ -3,12 +3,12 @@ import random
 
 
 def isnt_valid(n, x):
-    if x > n or x < 1:
-        print('Кажется, вы ввели число вне данного диапазона', end='')
-        print(', давайте играть по правилам :)')
-        return True
     if floor(x) != ceil(x):
         print('Кажется, вы ввели нецелое число', end='')
+        print(', давайте играть по правилам :)')
+        return True
+    if x > n or x < 1:
+        print('Кажется, вы ввели число вне данного диапазона', end='')
         print(', давайте играть по правилам :)')
         return True
     return False
@@ -30,7 +30,7 @@ def is_right(guess, x):
 def game():
     print('Сегодня у вас будет возможность угадать число в диапазоне от 1 до n',
           'Для этого введите n:', sep='\n', end=' ')
-    n = int(input())
+    n = float(input())
     result = 0
     guess = random.randint(1, n)
     x = -1
@@ -40,6 +40,7 @@ def game():
         result += 1
         if isnt_valid(n, x):
             result -= 1
+            continue
         if is_right(guess, x):
             break
     print('Ваш результат -', result)
