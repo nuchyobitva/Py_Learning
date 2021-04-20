@@ -1,4 +1,4 @@
-# Welcome to my Py_Learning repository
+# Welcome to my Emoji Generator
 
 This program can generate emoji strings of needed length and emoji scale.
 
