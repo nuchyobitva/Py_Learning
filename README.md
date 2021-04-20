@@ -6,3 +6,4 @@ This repository is called Py_learning and I will share, what am I learning in py
 * [Secure Password Generator](https://github.com/nuchyobitva/Py_Learning/tree/main/ezcodes/Password_Generator)
 * [Caesar cipher Coder/Decoder](https://github.com/nuchyobitva/Py_Learning/tree/main/ezcodes/Caesar_Cipher)
 * [String unpacker](https://github.com/nuchyobitva/Py_Learning/tree/main/ezcodes/unpack_strngs)
+* [Smile Creator](https://github.com/nuchyobitva/Py_Learning/tree/main/ezcodes/smile_rand)
